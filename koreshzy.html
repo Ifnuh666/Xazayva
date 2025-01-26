@@ -12,6 +12,20 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <style>
+      body {
+        min-height: 100vh;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        height: 80px;
+        width: 100%;
+      }
+      .img_footer {
+        width: 30px;
+        height: 30px;
+      }
       .rounded-img {
         width: 60%;
         border-radius: 50%;
@@ -128,5 +142,55 @@
         </div>
       </div>
     </div>
+    <footer class="bg-dark text-center">
+      <!-- Grid container -->
+      <div class="container pb-1">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- VK -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            href="https://vk.com/bebra_problema"
+            role="button"
+            target="_blank"
+          >
+            <img src="vk.png" class="img_footer" />
+          </a>
+
+          <!-- Telegram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            href="https://t.me/mego_gym"
+            role="button"
+            target="_blank"
+            >
+            <img src="tg.png" class="img_footer"></i
+          ></a>
+
+          <!-- YouTube -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            href="https://www.youtube.com/@IfnuhShow"
+            role="button"
+            target="_blank"
+            >
+            <img src="youtube.png" class="img_footer"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            href="https://github.com/Ifnuh666"
+            role="button"
+            >
+            <img src="git.png" class="img_footer"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+    </footer>
   </body>
 </html>
